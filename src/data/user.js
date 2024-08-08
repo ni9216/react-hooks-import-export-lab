@@ -1,6 +1,6 @@
-const username = "Liza";
-const city = "New York";
-
-const image = "https://i.imgur.com/mV8PQxj.gif";
-
-// export all three variables as named exports
+// src/data/user.js
+/* eslint-disable no-unused-vars */
+export const username = "Your Username";
+export const city = "Your City";
+export const image = "path/to/your/image.jpg";
+/* eslint-enable no-unused-vars */

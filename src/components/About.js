@@ -1,11 +1,14 @@
-import React from "react";
+// src/components/About.js
+import React from 'react';
+import { image } from '../data/user'; // Import the image variable
 
-function About() {
+const About = () => {
   return (
     <div id="about">
-      <h2>About Me</h2>
-      <p>I Made This</p>
-      <img src={image} alt="I made this" />
+      <h2>About</h2>
+      <img src={image} alt="about" />
     </div>
   );
-}
+};
+
+export default About;
