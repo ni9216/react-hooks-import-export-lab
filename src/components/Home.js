@@ -1,14 +1,13 @@
-// src/components/Home.js
-import React from 'react';
-import { username, city } from '../data/user'; // Import username and city variables
-
-const Home = () => {
+import React from "react";
+import { username,city } from "../data/user";
+function Home() {
   return (
     <div id="home">
-      <h2>Home</h2>
-      <p>{username} lives in {city}</p>
+      <h1>
+        {username} is a Web Developer from {city}
+      </h1>
     </div>
   );
-};
+}
 
 export default Home;
